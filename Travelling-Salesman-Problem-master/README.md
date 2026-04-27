@@ -65,6 +65,7 @@ Etapas:
 │   ├── capitais12.csv         # 12 capitais
 │   ├── capitais13.csv         # 13 capitais
 │   ├── capitais14.csv         # 14 capitais
+│   ├── capitais_completo.csv  # 26 capitais
 │   ├── cidades.csv            # Dataset adicional
 │   └── cidades2.csv           # Dataset adicional
 └── figures/                    # Gráficos e visualizações
