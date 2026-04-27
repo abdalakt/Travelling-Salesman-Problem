@@ -66,7 +66,6 @@ Etapas:
 │   ├── capitais13.csv         # 13 capitais
 │   ├── capitais14.csv         # 14 capitais
 │   ├── capitais_completo.csv  # 26 capitais
-└── figures/                   # Gráficos e visualizações
 ```
 
 ## Como Usar
