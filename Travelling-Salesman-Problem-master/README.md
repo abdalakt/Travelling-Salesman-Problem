@@ -55,9 +55,9 @@ Etapas:
 
 ```
 ├── travelling_salesman.ipynb  # Notebook principal com análises
-├── README.md                   # Este arquivo
-├── requirements.txt            # Dependências do projeto
-├── tsp_data/                   # Datasets com matrizes de distâncias
+├── README.md                  # Este arquivo
+├── requirements.txt           # Dependências do projeto
+├── tsp_data/                  # Datasets com matrizes de distâncias
 │   ├── capitais5.csv          # 5 capitais (pequeno)
 │   ├── capitais9.csv          # 9 capitais
 │   ├── capitais10.csv         # 10 capitais
@@ -66,9 +66,7 @@ Etapas:
 │   ├── capitais13.csv         # 13 capitais
 │   ├── capitais14.csv         # 14 capitais
 │   ├── capitais_completo.csv  # 26 capitais
-│   ├── cidades.csv            # Dataset adicional
-│   └── cidades2.csv           # Dataset adicional
-└── figures/                    # Gráficos e visualizações
+└── figures/                   # Gráficos e visualizações
 ```
 
 ## Como Usar
