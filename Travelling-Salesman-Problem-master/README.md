@@ -153,7 +153,7 @@ Cidade3;distância;distância;0;...
 - **Aproximativo**: Rápido mas pode estar 2x acima do ótimo
 
 ### Quando Usar Cada Um
-- **Força Bruta**: Problema pequeno (n ≤ 12) onde precisamos da solução exata
+- **Força Bruta**: Problema pequeno (n ≤ 13) onde precisamos da solução exata
 - **Aproximativo**: Problema grande onde velocidade é crítica
 
 ### Aplicações Práticas

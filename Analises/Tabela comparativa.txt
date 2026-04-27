@@ -1,0 +1,21 @@
+
+📊 TABELA COMPARATIVA - FORÇA BRUTA vs APROXIMATIVO
+
+Cidades  | Algoritmo       | Custo    | Tempo (s)    | Big O |  Razao    | Desvio em relação ao ótimo | Desempenho         
+-------------------------------------------------------------------------------------------------------------------------------
+5        | Força Bruta     | 575895   | 0.000154     | O(n!) |  1        | -           	  			  |
+         | Aproximativo    | 575895   | 0.018393     | O(n²) |  1        | -           	  			  | 0.01x mais rápido
+9        | Força Bruta     | 927306   | 0.201760     | O(n!) |  1        | -           	  			  |
+         | Aproximativo    | 990337   | 0.111504     | O(n²) |  1.0680x  | 6.80% pior  	  			  | 1.81x mais rápido
+10       | Força Bruta     | 1420035  | 1.667059     | O(n!) |  1        | -              			  |
+         | Aproximativo    | 1605210  | 0.012362     | O(n²) |  1.1304x  | 13.04% pior    			  | 134.85x mais rápido
+11       | Força Bruta     | 1366141  | 15.714983    | O(n!) |  1        | -              			  |
+         | Aproximativo    | 1697592  | 0.011784     | O(n²) |  1.2426x  | 24.26% pior    			  | 1333.58x mais rápido
+12       | Força Bruta     | 1347316  | 368.696655   | O(n!) |  1        | -           	  			  |					 
+         | Aproximativo    | 1607211  | 0.019165     | O(n²) |  1.1929   | 19.29% pior 	  			  | 19238.46x mais rápido
+13       | Força Bruta     | 1326012  | 2980.205073  | O(n!) |  1        | -           	  			  |
+         | Aproximativo    | 1468980  | 0.015631     | O(n²) |  1.1078x  | 10.78% pior	  			  | 190654.58x mais rápido
+		 
+		 
+		 
+		 
