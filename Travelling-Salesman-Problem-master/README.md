@@ -126,9 +126,6 @@ jupyter notebook travelling_salesman.ipynb
    - Compara tempo de execução e qualidade da solução
    - Exibe métricas de desempenho
 
-7. **Visualização de Resultados**
-   - Gráficos comparativos (se disponíveis na pasta `figures/`)
-
 ## Formato dos Dados
 
 Os arquivos CSV utilizam a seguinte estrutura:
@@ -149,11 +146,11 @@ Cidade3;distância;distância;0;...
 ## Insights e Conclusões
 
 ### Trade-offs
-- **Força Bruta**: Exato mas exponencial
-- **Aproximativo**: Rápido mas pode estar 2x acima do ótimo
+- **Força Bruta**: Exato, mas exponencial
+- **Aproximativo**: Rápido, mas pode ter razão de desempenho, no pior caso, igual a 2x o ótimo.
 
 ### Quando Usar Cada Um
-- **Força Bruta**: Problema pequeno (n ≤ 13) onde precisamos da solução exata
+- **Força Bruta**: Problema pequeno (n ≤ 12) onde precisamos da solução exata
 - **Aproximativo**: Problema grande onde velocidade é crítica
 
 ### Aplicações Práticas
