@@ -15,7 +15,7 @@ Cidades  | Algoritmo       | Custo    | Tempo (s)    | Big O |  Razao    | Desvi
          | Aproximativo    | 1607211  | 0.019165     | O(n²) |  1.1929   | 19.29% pior 	  			  | 19238.46x mais rápido
 13       | Força Bruta     | 1326012  | 2980.205073  | O(n!) |  1        | -           	  			  |
          | Aproximativo    | 1468980  | 0.015631     | O(n²) |  1.1078x  | 10.78% pior	  			  | 190654.58x mais rápido
-		 
-		 
+26		 | Força Bruta     | Inviável | - 	         | O(n!) 		 
+         | Aproximativo    | 2361634  | 0.136301     | O(n²)		 
 		 
 		 

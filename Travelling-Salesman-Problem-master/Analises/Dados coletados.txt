@@ -473,3 +473,107 @@ CONCLUSÕES
   - O(n²) vs O(n!) torna-o escalável para aplicações reais
 
 ====================================================================================================  
+
+================================================================================
+CARREGANDO DATASETS
+================================================================================
+
+✓ Dataset 1 (capitais5.csv): 5 cidades
+  Cidades: Aracaju, Belém, Belo Horizonte, Brasília, Campo Grande
+  Complexidade Teórica:
+    Força Bruta: O(n!) = 120 operações
+    Aproximativo: O(n²) = 25 operações
+
+✓ Dataset 2 (capitais_completo.csv): 26 cidades
+  Cidades: Aracaju, Belém, Belo Horizonte, Brasília, Campo Grande, Cuiabá, Curitiba, Florianópolis, Fortaleza, Boa Vista, Maceió, Goiânia, Palmas, Manaus, João Pessoa, Natal, Porto Alegre, Porto Velho, Recife, Rio de Janeiro, Salvador, Rio Branco, São Luís, São Paulo, Teresina, Vitória
+  Complexidade Teórica:
+    Força Bruta: O(n!) = 403291461126605635584000000 operações
+    Aproximativo: O(n²) = 676 operações
+	
+================================================================================
+ANÁLISE: Dataset 1 - capitais5.csv (5 cidades)
+================================================================================
+
+Testando ALGORITMO APROXIMATIVO...
+
+  Nó inicial  0: Custo=775484, Tempo=0.058641s
+  Nó inicial  1: Custo=575895, Tempo=0.000994s
+  Nó inicial  2: Custo=575895, Tempo=0.000683s
+  Nó inicial  3: Custo=612073, Tempo=0.000619s
+  Nó inicial  4: Custo=612073, Tempo=0.000851s
+
+Resumo Aproximativo:
+  Melhor Custo: 575895.0
+  Pior Custo: 775484.0
+  Custo Médio: 654484.00
+  Tempo Total: 0.061789s
+  Tempo Médio por execução: 0.012358s
+
+Testando FORÇA BRUTA (Solução Ótima)...
+
+  Custo Ótimo: 575895.0
+  Tempo: 0.000394s
+
+COMPARAÇÃO:
+  Força Bruta (Ótimo): 575895.0
+  Aproximativo (Melhor): 575895.0
+  Razão: 1.0000x
+  Diferença: 0.0 unidades (0.00% pior)
+  Speedup: 0.01x mais rápido (Aproximativo)
+
+
+================================================================================
+ANÁLISE: Dataset 2 - capitais_completo.csv (26 cidades)
+================================================================================
+
+Testando ALGORITMO APROXIMATIVO...
+
+  Nó inicial  0: Custo=2989455, Tempo=0.009094s
+  Nó inicial  1: Custo=2361634, Tempo=0.003886s
+  Nó inicial  2: Custo=2968780, Tempo=0.004651s
+  Nó inicial  3: Custo=2979994, Tempo=0.002946s
+  Nó inicial  4: Custo=2458572, Tempo=0.003987s
+  Nó inicial  5: Custo=2968855, Tempo=0.003465s
+  Nó inicial  6: Custo=2504181, Tempo=0.002909s
+  Nó inicial  7: Custo=2382173, Tempo=0.004474s
+  Nó inicial  8: Custo=2886123, Tempo=0.005359s
+  Nó inicial  9: Custo=2729525, Tempo=0.003356s
+  Nó inicial 10: Custo=2492932, Tempo=0.003518s
+  Nó inicial 11: Custo=3072529, Tempo=0.003377s
+  Nó inicial 12: Custo=2717641, Tempo=0.015988s
+  Nó inicial 13: Custo=2817140, Tempo=0.003816s
+  Nó inicial 14: Custo=2729525, Tempo=0.004982s
+  Nó inicial 15: Custo=2734096, Tempo=0.004551s
+  Nó inicial 16: Custo=2968855, Tempo=0.003676s
+  Nó inicial 17: Custo=3060878, Tempo=0.006803s
+  Nó inicial 18: Custo=2734096, Tempo=0.004243s
+  Nó inicial 19: Custo=2590069, Tempo=0.005079s
+  Nó inicial 20: Custo=2492932, Tempo=0.003427s
+  Nó inicial 21: Custo=2382173, Tempo=0.013151s
+  Nó inicial 22: Custo=2958117, Tempo=0.008493s
+  Nó inicial 23: Custo=2989455, Tempo=0.003982s
+  Nó inicial 24: Custo=2458572, Tempo=0.002534s
+  Nó inicial 25: Custo=2958117, Tempo=0.004555s
+
+Resumo Aproximativo:
+  Melhor Custo: 2361634.0
+  Pior Custo: 3072529.0
+  Custo Médio: 2759594.11
+  Tempo Total: 0.136301s
+  Tempo Médio por execução: 0.005242s
+
+Força Bruta inviável para 26 cidades
+  Complexidade: O(n!) = 403291461126605635584000000 operações
+
+====================================================================================================
+RELATÓRIO COMPARATIVO - ANÁLISE DE COMPLEXIDADE
+====================================================================================================
+
+📊 TABELA COMPARATIVA - FORÇA BRUTA vs APROXIMATIVO
+
+Dataset              | Cidades  | Algoritmo       | Custo    | Tempo (s)    | Big O               
+----------------------------------------------------------------------------------------------------
+Dataset 1            | 5        | Força Bruta     | 575895   | 0.000394     | O(n!)               
+                     |          | Aproximativo    | 575895   | 0.061789     | O(n²)       
+Dataset 2			 | 26		| Força Bruta     | Inviável | - 	        | O(n!)               					
+                     |          | Aproximativo    | 2361634  | 0.136301     | O(n²)       
